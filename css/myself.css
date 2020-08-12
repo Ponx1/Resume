@@ -1,0 +1,105 @@
+.about-me-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  opacity: 0;
+  transform: rotate(0deg) translateY(200px);
+  border-style: solid;
+  border-width: 10px;
+  border-bottom-width: 40px;
+  border-color: #ecf0f1;
+  box-shadow: 10px 10px 5px grey;
+  -webkit-transition: all .7s;
+  -moz-transition: all .7s;
+  transition: all .7s;
+}
+
+.showPic {
+  transform: rotate(-10deg) translateY(0px);
+  opacity: 1;
+}
+
+@media only screen and (max-width: 780px) {
+  .about-me-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    opacity: 0;
+    transform: rotate(0deg) translateY(200px);
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 0px;
+    border-color: #ecf0f1;
+    box-shadow: 0px 0px 0px grey;
+    -webkit-transition: all .7s;
+    -moz-transition: all .7s;
+    transition: all .7s;
+  }
+
+  .showPic {
+    transform: rotate(0deg) translateY(0px);
+    opacity: 1;
+  }
+}
+
+.about-myself {
+  padding: 50px 20px;
+}
+.about-myself .content {
+  text-align: center;
+  font-size: 1.5em;
+}
+.about-myself .content h2{
+  color: #3d3d3d;
+  font-size: 3em;
+  margin-bottom: 20px;
+  -webkit-transform: translateY(-50px) scale(0);
+  transform: translateY(-50px) scale(0);
+  -webkit-transition: transform .7s;
+  -moz-transition: transform .7s;
+  transition: transform .7s;
+}
+
+.about-myself .content p{
+  color: #3d3d3d;
+  margin-bottom: 20px;
+  -webkit-transform: translateY(-50px) scale(0);
+  transform: translateY(-50px) scale(0);
+  -webkit-transition: transform .7s;
+  -moz-transition: transform .7s;
+  transition: transform .7s;
+}
+
+.about-myself .content .aboutTitleVisible {
+  -webkit-transform: translateY(0px) scale(1);
+  transform: translateX(0px) scale(1);
+}
+.about-myself .content p span {
+  color: #c0392b;
+  font-weight: bold;
+}
+
+.specs {
+  text-align: right;
+  font-size: 1.5em;
+  opacity: 0;
+  -webkit-transition: all .7s;
+  -moz-transition: all .7s;
+  transition: all .7s;
+}
+
+.showspecs {
+  opacity: 1;
+}
+
+.specs span{
+  font-weight: bold;
+  color:#0652DD;
+}
+
+.codemoto {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1.3em;
+}

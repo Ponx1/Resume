@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <title>Alfonso´s CV</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/landing.css">
+  <link rel="stylesheet" href="css/myself.css">
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" id="collapse_toggle">
+        <span class="icon-bar" id="bar1"></span>
+        <span class="icon-bar" id="bar2"></span>
+        <span class="icon-bar" id="bar3"></span>
+      </button>
+      <a class="navbar-brand" href="#home" id="main_label">Alfonso</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#exp">Experience</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#cv">Resume PDF</a></li>
+        <li><a href="#port">Portfolio</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- partial:index.partial.html -->
+<section class="hero" id="home">
+  <div class="content">
+    <div class="header">
+      <h1>-Welcome-<br>My resume</h1>
+      <a href="#about"><button class="start">START</button></a>
+    </div>
+  </div>
+</section>
+
+<section class="about-myself" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <img src="assets/about-me.jpg" class="about-me-pic" align="middle">
+      </div>
+      <div class="col-sm-6">
+        <div class="row">
+          <div class="content">
+            <h2>Hello!</h2>
+            <p>I'm <span>Alfonso Vega Garza</span> a creative, passionate and young engineer who loves any type of challenge</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="specs">
+            <p><span>Bachelor Degree: </span>Mechatronics Engineering</p>
+            <p><span>Hobbies: </span>Videogames, Food and Music</p>
+            <p><span>Birth date: </span> 03/15/96</p>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+</section>
+
+
+<section class="experience" id="exp">
+  <div class="content">
+    <h1>Experience</h1>
+    <ul>
+      <li>
+        <div class="experience-content notshown">
+          <h2>National School of Mathematics</h2>
+          <div class="experience-time">Jan 2014 - Aug 2017</div>
+          <p>I started at a very young age to give math and physics classes</p>
+          <img src="assets/cona.jpeg">
+        </div>
+      </li>
+      <li>
+        <div class="experience-content notshown">
+          <h2>UNESCO</h2>
+          <div class="experience-time">Jul 2015</div>
+          <p>Participant in the Quianmen International Intangible Cultural Heritage Forum Beijing, China</p>
+          <img src="assets/beijing.jpg">
+        </div>
+      </li>
+      <li>
+        <div class="experience-content notshown">
+          <h2>UNAM</h2>
+          <div class="experience-time">Aug 2015 - Aug 2020</div>
+          <p>Started my studies as a Mechatronic Engineer in the best Latin American University</p>
+          <img src="assets/unam.jpg">
+        </div>
+      </li>
+      <li>
+        <div class="experience-content notshown">
+          <h2>UNESCO</h2>
+          <div class="experience-time">Mar 2017</div>
+          <p>Participant in the Mobile Learning Week: Education In Emergencies And Crisis Paris, France</p>
+          <img src="assets/paris.jpg">
+        </div>
+      </li>
+      <li>
+        <div class="experience-content notshown">
+          <h2>UNESCO</h2>
+          <div class="experience-time">Apr 2017</div>
+          <p>Participant in the International Youth Forum: Creativity and Heritage Along The Silk Road 16-19 April 2017, Changsha, China and April 20-22, Quanzhou, China</p>
+          <img src="assets/changsha.jpg">
+        </div>
+      </li>
+      <li>
+        <div class="experience-content notshown">
+          <h2>Freelance</h2>
+          <div class="experience-time">Aug 2018</div>
+          <p>Working as a Full-Stack Web Developer as a Freelancer and working in a startup company</p>
+          <img src="assets/freelance.jpeg">
+        </div>
+      </li>
+      <li>
+        <div class="experience-content notshown">
+          <h2>Chamberlain Group</h2>
+          <div class="experience-time">Aug - Dec 2019</div>
+          <p>Internship in the Test Automation Group in Chamberlain</p>
+          <img src="assets/test.jpg">
+        </div>
+      </li>
+      <li>
+        <div class="experience-content notshown">
+          <h2>Chamberlain Group</h2>
+          <div class="experience-time">Dec 2019</div>
+          <p>Engineering presentation in Chamberlain Headquarters Chicago, Illinois</p>
+          <img src="assets/chicago.jpeg">
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="skills" id="skill">
+  <div class="content">
+    <div class="development-wrapper">
+      <h2 class="development-title">Development</h2>
+      <ul class="skills-bar-container">
+        <li>
+          <div class="progressbar-title">
+            <h3>Test Automation</h3>
+            <span class="percent" id="html-pourcent"></span>
+          </div>
+          <div class="bar-container" data-percent="85">
+            <span class="progressbar" id="progress-html"></span>
+          </div>
+        </li>
+        <li>
+          <div class="progressbar-title">
+            <h3>Front-End Development</h3>
+            <span class="percent" id="css-pourcent"></span>
+          </div>
+          <div class="bar-container" data-percent="90">
+            <span class="progressbar" id="progress-css"></span>
+          </div>
+        </li>
+        <li>
+          <div class="progressbar-title">
+            <h3>Back-End Development</h3>
+            <span class="percent" id="javascript-pourcent"></span>
+          </div>
+          <div class="bar-container" data-percent="80">
+            <span class="progressbar" id="progress-javascript"></span>
+          </div>
+        </li>
+        <li>
+          <div class="progressbar-title">
+            <h3>English</h3>
+            <span class="percent" id="php-pourcent"></span>
+          </div>
+          <div class="bar-container" data-percent="100">
+            <span class="progressbar" id="progress-php"></span>
+          </div>
+        </li>
+        <li>
+          <div class="progressbar-title">
+            <h3>French</h3>
+            <span class="percent" id="angular-pourcent"></span>
+          </div>
+          <div class="bar-container" data-percent="40">
+            <span class="progressbar" id="progress-angular"></span>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="tools-knowledge-wrapper">
+      <div class="tools-wrapper">
+        <h2 class="title">Tools</h2>
+        <ul class="tools">
+          <li>
+            <i class="fa fa-check" aria-hidden="true"></i>
+            Visual Studio
+          </li>
+          <li>
+            <i class="fa fa-check" aria-hidden="true"></i>
+            Sublime Text
+          </li>
+          <li>
+            <i class="fa fa-check" aria-hidden="true"></i>
+            Database (SQL)
+          </li>
+          <li>
+            <i class="fa fa-check" aria-hidden="true"></i>
+            Fusion 360
+          </li>
+          <li>
+            <i class="fa fa-check" aria-hidden="true"></i>
+            Solid Works
+          </li>
+          <li>
+            <i class="fa fa-check" aria-hidden="true"></i>
+            Inventor
+          </li>
+        </ul>
+      </div>
+      <div class="knowledge-wrapper">
+        <h2 class="title">Knowledge</h2>
+        <ul class="knowledge">
+          <li>
+            <i class="fa fa-check" aria-hidden="true"></i>
+            Wireframing
+          </li>
+          <li>
+            <i class="fa fa-check" aria-hidden="true"></i>
+            Modular design
+          </li>
+          <li>
+            <i class="fa fa-check" aria-hidden="true"></i>
+            MS Office
+          </li>
+          <li>
+            <i class="fa fa-check" aria-hidden="true"></i>
+            Plug USB on first try
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="clear"></div>
+</section>
+<section class="resume" id="cv">
+  <div class="content">
+    <div class="row">
+      <div class="col-sm-6">
+        <a href="cv/AlfonsoEnCv.pdf" target="_blank">
+          <div class="btn-resume">
+            <i class="fa fa-download fa-2x" aria-hidden="true"></i>
+            <span>English PDF<span>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-6">
+        <a href="cv/AlfonsoEsCv.pdf" target="_blank">
+          <div class="btn-resume">
+            <i class="fa fa-download fa-2x" aria-hidden="true"></i>
+            <span>Spanish PDF<span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="portfolio" id="port">
+  <div class="content">
+    
+    <h1>Some works besides this webpage</h1>
+    
+    <div class="projects">
+
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="project">
+            <div class="project-image">
+              <img src="assets/khepri.jpg" alt=""/>
+            </div>
+            <div class="project-title">
+              <h2>Gear Box Tester</h2>
+            </div>
+            <div class="project-description">
+              <p>I developed this project during my internship in Chamberlain, I design the Mechanics, Electronics and Software for this Fixture which main purpose is to test the gear box placed in the fixture.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="project">
+            <div class="project-image">
+              <img src="assets/cona-sistema.jpeg" alt=""/>
+            </div>
+            <div class="project-title">
+              <h2>National School <br>of Math System</h2>
+            </div>
+            <div class="project-description">
+              <p>I developed this system alongside one partner with the main goal of providing the company an online tool to create schedules and for accountability record management</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="contact">
+  <div class="content">
+    <ul class="socials">
+      <li class="social">
+        <a href="mailto:ponx.987@gmail.com" target="_blank" class="email">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li class="social">
+        <a href="https://www.linkedin.com/in/alfonso-vega-garza-382331133/" target="_blank" class="linkedin">
+          <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li class="social">
+        <a href="https://www.facebook.com/poncho.vega.18" target="_blank" class="twitter">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li class="social">
+        <a href="https://github.com/Ponx1/" target="_blank" class="email">
+          <i class="fa fa-github"></i>
+        </a>
+      </li>
+    </ul>
+    <div class="clear"></div>
+  </div>
+</section>
+<section class="footer">
+  <p>Made with <i class="fa fa-heart" aria-hidden="true"></i> by Alfonso</p>
+</section>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script  src="js/index.js"></script>
+
+</body>
+</html>
